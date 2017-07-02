@@ -13,23 +13,23 @@ public class Caishuzi {
 				int b=1;
 				int c=100;
 				int count=0;
-				System.out.println("Êı×Ö·¶Î§Îª"+b+"~"+c);
+				System.out.println("æ•°å­—èŒƒå›´ä¸º"+b+"~"+c);
 				do{
 					a=in.nextInt();
 					count=count+1;
 					if(a>shuzuber)
 					{
-						System.out.println("Æ«´ó,Êı×Ö·¶Î§Îª"+b+"~"+a);
+						System.out.println("åå¤§,æ•°å­—èŒƒå›´ä¸º"+b+"~"+a);
 						c=a;
 					}
 
 					if(a<shuzuber)
 					{
-						System.out.println("Æ«Ğ¡,Êı×Ö·¶Î§Îª"+a+"~"+c);
+						System.out.println("åå°,æ•°å­—èŒƒå›´ä¸º"+a+"~"+c);
 						b=a;
 					}
 				}while(a!=shuzuber);
-				System.out.println("¹§Ï²Äã²Â¶ÔÁË£¬Äã²ÂÁË"+count+"´Î");
+				System.out.println("æ­å–œä½ çŒœå¯¹äº†!ä½ çŒœäº†"+count+"æ¬¡");
 			}
 
 		
