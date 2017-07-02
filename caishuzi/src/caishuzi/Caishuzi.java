@@ -2,6 +2,10 @@ package caishuzi;
 
 import java.util.Scanner;
 
+
+
+
+
 public class Caishuzi {
 
 	public static void main(String[] args) {
